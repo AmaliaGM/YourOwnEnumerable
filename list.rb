@@ -1,6 +1,5 @@
 require 'enumerable'
 
-grossery = Struct.new(:name, :color)
 class Mylist
   include Myenumerable
   extend Forwardable
