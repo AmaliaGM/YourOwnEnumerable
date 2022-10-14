@@ -1,10 +1,8 @@
-require 'enumerable'
+require_relative 'enumerable'
 
 class Mylist
   include Myenumerable
-  extend Forwardable
-  def_delegators :@grossery, :amount, :size, :index
-
+  
   def initialize(list)
     @list = list
   end

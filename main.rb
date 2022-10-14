@@ -1,4 +1,4 @@
-require 'list'
+require_relative 'list'
 
 puts('Passed Values: @list=[1, 2, 3, 4]')
 list = Mylist.new(1, 2, 3, 4)
