@@ -3,7 +3,7 @@ require_relative 'enumerable'
 class Mylist
   include Myenumerable
 
-  def initialize(list)
+  def initialize(*list)
     @list = list
   end
 
